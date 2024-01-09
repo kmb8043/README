@@ -65,13 +65,15 @@ const questions = [
         },
 ];
 
-
+function writeToFile(README , data){
+    return fs.writeFileSync(path.join(process.cwd() , README) , data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then((responses) => {
+    inquirer.prompt(questions).then((answers) => {
      console.log("Creating a README.md file...");
-     fs.writeToFile("./README.md" , generateMarkdown(responses));
+     writeToFile("./README.md" , generateMarkdown(answers));
 
     });
    }
