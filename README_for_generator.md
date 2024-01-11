@@ -14,8 +14,11 @@ The responses will then be inserted into a markdown template and submited as a n
 
 The user will run "node index.js" in the working terminal of the project. The user will need to answer the prompts in order to get the README. 
 
-## Usage ## 
+## Usage ##
 
+The user can use this generator to create a readme file through the terminal.
+
+## GitHub ##
 
 
 

@@ -1,10 +1,10 @@
-# project readme generator
+# readme generator
 
 ## Description 
-i want to create a professional readme by using prompts in the terminal
+for this project i wanted to create a professional readme through the terminal
 
 ## Screenshot
-
+insert
 
 
 ## Link to deployed application URL
@@ -23,10 +23,10 @@ undefined
 ## Installation
 To install the application, follow these steps:
 
-<iframe src="https://drive.google.com/file/d/18zABstgLw2FVql-bKVP8m0Ir7t2ZL5yN/preview" width="640" height="480"></iframe>
+the user will run node index.js inside of the working terminal and answer the prompts
 
 ## How to use this application
-useage
+the answers will then go into a folder called readme
 
 ## Contributors
 none
