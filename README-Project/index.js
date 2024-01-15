@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// packages needed for application //
 const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input 
+// questions for user input //
 
 const questions = [
 
@@ -44,17 +44,11 @@ const questions = [
             name: 'usage',
             message: 'State the usage of your project.',
         },
-    
-        {
-            type:'input',
-            name: 'GitHub',
-            message: 'Add your GitHub username.',
-        },
 
         {
             type:'input',
             name: 'contributors',
-            message: 'List any contributors. If none, please write "none.',
+            message: 'List any contributors. If none, please write "none"',
         },
     
         {
@@ -63,13 +57,25 @@ const questions = [
             message: 'Choose a license for the application',
             choices: ['MIT' , 'Apache' , 'GPL' , 'None' ]
         },
+
+        {
+            type:'input',
+            name: 'github',
+            message: 'Add your GitHub username.',
+        },
+
+        {
+            type:'input',
+            name:'contact',
+            message:'add a contact email',
+        },
 ];
 
 function writeToFile(README , data){
     return fs.writeFileSync(path.join(process.cwd() , README) , data);
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {
      console.log("Creating a README.md file...");

@@ -20,6 +20,7 @@ The user can use this generator to create a readme file through the terminal.
 
 ## GitHub ##
 
+https://kmb8043.github.io/README/
 
 
 ## License ##

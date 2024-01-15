@@ -15,7 +15,6 @@ function renderLicenseBadge(license) {
   }
   }
 
-
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
@@ -37,22 +36,19 @@ function generateMarkdown(data) {
 ## Description 
 ${data.description}
 
+# Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributors](#contributors) 
+  * [Lisence](#lisence)
+  * [Contact Information](#contact)
+ 
 ## Screenshot
 ${data.screenshot}
 
 
 ## Link to deployed application URL
 ${data.link}
-
-## GitHub
-${data.Github}
-
-## Table of Contents
-  * Installation
-  * Usage
-  * GitHub
-  * Contributors
-  * Lisence
 
 ## Installation
 To install the application, follow these steps:
@@ -67,7 +63,13 @@ ${data.contributors}
 
 ## License
 ${renderLicenseBadge(data.license)}
+
+## Contact
+${data.contact }
+${data.github}
 `;
 }
+
+
 
 module.exports = generateMarkdown;
