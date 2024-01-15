@@ -18,7 +18,7 @@ The user will run "node index.js" in the working terminal of the project. The us
 
 The user can use this generator to create a readme file through the terminal.
 
-[Untitled_ Jan 15, 2024 4_33 PM.webm](https://github.com/kmb8043/README/assets/147110705/1e3b7d2f-ef3a-4868-bbea-0e06d6713a33)
+(https://github.com/kmb8043/README/assets/147110705/1e3b7d2f-ef3a-4868-bbea-0e06d6713a33)
 
 ## GitHub ##
 
